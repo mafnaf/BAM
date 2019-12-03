@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Will this be BAM!?</string>
+    <string name="title_activity_start_bam">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <string name="title_activity_question_option_select">questionOptionSelect</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="questionsWithFriends">QUESTIONS WITH FRIENDS</string>
+    <string name="createQuestion">CREATE QUESTION</string>
+    <string name="enterQuestion">ENTER QUESTION</string>
+    <string name="requestHelp">REQUEST HELP</string>
+    <string name="questionTypeName">QuestionType</string>
+    <string name="logicElementValue">number</string>
+    <string name="logicKeyElement" />
+    <string name="questionExplanation" />
+    <string name="answerBox" />
+</resources>
