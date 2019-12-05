@@ -9,21 +9,23 @@ import android.widget.EditText
 
 class EnterQuizId : AppCompatActivity(){
 
-    lateinit var editQuizId: EditText
-    lateinit var swapScreen: Button
+    lateinit var quizId: EditText
+    lateinit var enterQuiz: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_enter_quiz_id)
 
-        editQuizId = findViewById(R.id.editQuizId)
-        swapScreen = findViewById(R.id.swapScreen)
+        quizId = findViewById(R.id.editQuizId)
+        enterQuiz = findViewById(R.id.startQuizScreen)
 
 
-        swapScreen.setOnClickListener {
-            val intent: Intent = Intent(applicationContext, SelectQuestionOptions::class.java)
-            val idVal: String? = editQuizId.text.toString() // send it to value as string.
-            intent.putExtra("idVal", idVal)
+        enterQuiz.setOnClickListener {
+            val intent: Intent = Intent(applicationContext, QuestionView::class.java)
+            //val idVal: Int = quizId // send it to value as string.
+            val id = 1
+            intent.putExtra("idVal", id)
+            intent.putExtra("view", 2)
             startActivity(intent)
 
         }

@@ -25,4 +25,5 @@
     <string name="questionExplanation3">Puzzle</string>
     <string name="questionExplanation4">Sequence</string>
     <string name="answerBox" />
+    <string name="EnterID">Enter ID:</string>
 </resources>
