@@ -23,6 +23,8 @@ class SelectQuestionOptions : AppCompatActivity() {
             val intent: Intent = Intent(applicationContext, QuestionView::class.java)
             val id = 1 // generate multiple values in future
             val view = 1 // if you enter you get the first view else you get second view
+            intent.putExtra("id", 1)
+            intent.putExtra("view", 1)
             intent.putExtra("questionView", view)
             if (id == 1) {
 
@@ -33,8 +35,9 @@ class SelectQuestionOptions : AppCompatActivity() {
         enterButton.setOnClickListener{
             val intent: Intent = Intent(applicationContext, QuestionView::class.java)
             val id = 1
-            val view = 2
-            intent.putExtra("questionView", view)
+            intent.putExtra("id", 1)
+            intent.putExtra("view", 2)
+
             if (id == 1) {
 
                  startActivity(intent)

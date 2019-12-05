@@ -17,8 +17,6 @@ class SecondActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_second)
 
-
-
         secondTextOutput = findViewById(R.id.secondText)
 
         val name: String = intent.getStringExtra("nameVal") //important that types matches!

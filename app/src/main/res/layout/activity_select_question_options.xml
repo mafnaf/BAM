@@ -23,7 +23,7 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         android:textColor="#FFFFFF"
         android:textIsSelectable="false"
-        android:textSize="36sp"
+        android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/createQuestion"
         app:layout_constraintEnd_toEndOf="parent"

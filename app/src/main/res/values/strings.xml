@@ -20,6 +20,9 @@
     <string name="questionTypeName">QuestionType</string>
     <string name="logicElementValue">number</string>
     <string name="logicKeyElement" />
-    <string name="questionExplanation" />
+    <string name="questionExplanation1">Logic</string>
+    <string name="questionExplanation2">Quick Maths</string>
+    <string name="questionExplanation3">Puzzle</string>
+    <string name="questionExplanation4">Sequence</string>
     <string name="answerBox" />
 </resources>
