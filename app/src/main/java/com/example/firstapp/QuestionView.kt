@@ -26,6 +26,8 @@ class QuestionView : AppCompatActivity() {
     lateinit var answerTextView3: TextView//answerElement3
     lateinit var answerTextView4: TextView//answerElement4
 
+    private val correct = 2 // hardcoded in this case
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_question_view)
@@ -79,9 +81,36 @@ class QuestionView : AppCompatActivity() {
         answerElement3.text = "21"
         answerElement4.text = "14"
 
+        answerTextView1.setOnClickListener{
+            if (correct == 1)
+                answerElement1.setBackgroundColor(getResources().getColor(R.color.Correct))
+            else
+                answerElement1.setBackgroundColor(getResources().getColor(R.color.Wrong))
+        }
 
+        answerTextView2.setOnClickListener{
+            if (correct == 2)
+                answerElement2.setBackgroundColor(getResources().getColor(R.color.Correct))
+            else
+                answerElement2.setBackgroundColor(getResources().getColor(R.color.Wrong))
+        }
+
+        answerTextView3.setOnClickListener{
+            if (correct == 3)
+                answerElement3.setBackgroundColor(getResources().getColor(R.color.Correct))
+            else
+                answerElement3.setBackgroundColor(getResources().getColor(R.color.Wrong))
+        }
+        answerTextView4.setOnClickListener{
+            if (correct == 4)
+                answerElement4.setBackgroundColor(getResources().getColor(R.color.Correct))
+            else
+                answerElement4.setBackgroundColor(getResources().getColor(R.color.Wrong))
+        }
 
 
 
     }
+
+
 }

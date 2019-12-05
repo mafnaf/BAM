@@ -10,4 +10,7 @@
 
     <color name="black_overlay">#66000000</color>
     //New
+    <color name="Correct">#239329</color>
+
+    <color name="Wrong">#FF1D00</color>
 </resources>
