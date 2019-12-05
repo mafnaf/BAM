@@ -33,7 +33,7 @@ class SelectQuestionOptions : AppCompatActivity() {
         }
 
         enterButton.setOnClickListener{
-            val intent: Intent = Intent(applicationContext, QuestionView::class.java)
+            val intent: Intent = Intent(applicationContext, EnterQuizId::class.java)
             val id = 1
             intent.putExtra("id", 1)
             intent.putExtra("view", 2)
