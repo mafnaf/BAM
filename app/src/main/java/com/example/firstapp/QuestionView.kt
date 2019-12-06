@@ -81,6 +81,7 @@ class QuestionView : AppCompatActivity() {
         answerElement2.text = "20"
         answerElement3.text = "21"
         answerElement4.text = "14"
+        //help!
 
         answerTextView1.setOnClickListener{
             if (correct == 1)
