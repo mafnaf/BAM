@@ -28,7 +28,7 @@ class EnterQuizId : AppCompatActivity(){
                 //val idVal: Int = quizId // send it to value as string.
                 val id = 1
                 intent.putExtra("idVal", id)
-                intent.putExtra("view", 2)
+                intent.putExtra("view",2)
                 startActivity(intent)
             }else
                 idError.text = "Need a ID to continue"

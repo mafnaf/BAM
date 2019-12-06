@@ -8,15 +8,12 @@ import android.widget.EditText
 import android.widget.TextView
 
 class MainActivity : AppCompatActivity(){
-
-
     lateinit var loginName: EditText
     lateinit var passwordText: EditText
     lateinit var loginButton: Button
     lateinit var buttonUpdateNew: Button
     lateinit var buttonSwapScreen: Button
     lateinit var textViewMessage: TextView
-
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

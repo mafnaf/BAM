@@ -3,6 +3,7 @@ package com.example.firstapp
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
+import android.widget.Button
 import kotlinx.android.synthetic.main.activity_question_view.*
 
 class QuestionView : AppCompatActivity() {
@@ -21,10 +22,10 @@ class QuestionView : AppCompatActivity() {
     lateinit var logicElement8: TextView//logicElement8 // key to logic
     lateinit var questionText: TextView // mainTextBody
 
-    lateinit var answerTextView1: TextView//answerElement1
-    lateinit var answerTextView2: TextView//answerElement2
-    lateinit var answerTextView3: TextView//answerElement3
-    lateinit var answerTextView4: TextView//answerElement4
+    lateinit var answerTextView1: Button//answerElement1
+    lateinit var answerTextView2: Button//answerElement2
+    lateinit var answerTextView3: Button//answerElement3
+    lateinit var answerTextView4: Button//answerElement4
 
     private val correct = 2 // hardcoded in this case
 

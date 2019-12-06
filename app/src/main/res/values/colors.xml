@@ -6,6 +6,12 @@
     //PINK
     <color name="colorAccent">#FFFF00</color>
     //YELLOW
+    <color name="colorBlue">#0022FF</color>
+    //BLUE
+    <color name="colorCrazyPink">#FF00FF</color>
+    //PINK
+    <color name="colorBrightYellow">#FFFF00</color>
+    //YELLOW
     <color name="colorAccentNew">#F25472</color>
 
     <color name="black_overlay">#66000000</color>

@@ -7,15 +7,16 @@
     android:background="@color/colorAccent"
     tools:context=".QuestionView">
 
-    <TextView
+    <Button
         android:id="@+id/answerElement1"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_marginStart="45dp"
         android:layout_marginLeft="45dp"
         android:layout_marginTop="580dp"
-        android:background="@color/colorPrimaryDark"
+        android:background="@drawable/button_shape"
         android:clickable="true"
+        android:textStyle="bold"
         android:duplicateParentState="false"
         android:editable="false"
         android:ems="10"
@@ -27,15 +28,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
+    <Button
         android:id="@+id/answerElement2"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_marginStart="68dp"
         android:layout_marginLeft="68dp"
         android:layout_marginTop="580dp"
-        android:background="@color/colorPrimaryDark"
+        android:background="@drawable/button_shape"
         android:clickable="true"
+        android:textStyle="bold"
         android:duplicateParentState="false"
         android:editable="false"
         android:ems="10"
@@ -48,7 +50,7 @@
         app:layout_constraintStart_toEndOf="@+id/answerElement1"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
+    <Button
         android:id="@+id/answerElement3"
         android:layout_width="50dp"
         android:layout_height="50dp"
@@ -57,8 +59,9 @@
         android:layout_marginTop="580dp"
         android:layout_marginEnd="60dp"
         android:layout_marginRight="60dp"
-        android:background="@color/colorPrimaryDark"
+        android:background="@drawable/button_shape"
         android:clickable="true"
+        android:textStyle="bold"
         android:duplicateParentState="false"
         android:editable="false"
         android:ems="10"
@@ -71,18 +74,19 @@
         app:layout_constraintStart_toEndOf="@+id/answerElement2"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
+    <Button
         android:id="@+id/answerElement4"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_marginTop="580dp"
         android:layout_marginEnd="44dp"
         android:layout_marginRight="44dp"
-        android:background="@color/colorPrimaryDark"
+        android:background="@drawable/button_shape"
         android:clickable="true"
         android:duplicateParentState="false"
         android:editable="false"
         android:ems="10"
+        android:textStyle="bold"
         android:fadingEdge="horizontal|vertical"
         android:text="@string/answerBox"
         android:textColor="#FFFFFF"
@@ -319,5 +323,13 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:text="main Text" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="666dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
