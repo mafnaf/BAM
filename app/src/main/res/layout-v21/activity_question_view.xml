@@ -21,7 +21,6 @@
         android:editable="false"
         android:ems="10"
         android:fadingEdge="horizontal|vertical"
-
         android:text="@string/answerBox"
         android:textColor="#FFFFFF"
         android:textSize="18sp"
@@ -323,13 +322,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:text="main Text" />
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="105dp"
-        tools:layout_editor_absoluteY="666dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
